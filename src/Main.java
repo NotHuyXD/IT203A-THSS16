@@ -16,7 +16,7 @@ public class Main {
         for (Product p : repo.findAll()) {
             p.displayInfo();
             System.out.println("Thành tiền: " + p.calculateFinalPrice() + "\n");
-        }//cau 2 toi muon lam bai tap moi voi phan 2 moi
+        }//cau 2 toi muon lam bai tap moi voi phan 2 moi  sadadadadadad
 
         System.out.println("=== 2. TÌM KIẾM SẢN PHẨM ===");
         Product searchResult = repo.findById("E01");
